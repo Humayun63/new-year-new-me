@@ -100,7 +100,32 @@ section {
 .past-failure ul.failure-list li i {
     color: #16D887;
 }
-
+/* PAST ACHIEVEMENT SECTION */
+.past-achievement{
+    text-align: center;
+}
+.achievements{
+    border-collapse: collapse;
+    margin:50px auto;
+    font-size: 25px;
+    box-shadow: 0px 0px 25px 0px rgba(3,94,169,0.75);
+}
+.achievements th, td{
+    border: 1px solid #005FAC;
+    padding: 10px;
+}
+.achievements #table-image{
+    padding: 25px;
+    background: #F5F5F5;
+} 
+.achievements img{
+    width: 350px;
+}
+.achievements i{
+    color: #005FAC;
+    font-size: 30px;
+    padding: 10px 20px;
+}
 /* PLAN SECTION STYLES */
 .plan {
     text-align: center;
